@@ -78,12 +78,14 @@ Visualizations were built using variety of Python libraries like Matplolib and S
 8. The benefits of drinking wine has been popularized for decades, however, we can not draw a clear conclusion that wine drinking is the cause for the longer life expectancy. What seems to be the best predictor of the longer life expectancy is the GDP of the country, confirming the fact that belonging to a certain socio-economic group is really what determines life expectancy the most rather than other factors including alcohol consumption in general and wine consumption specifically. 
 
 
-### Limitations
-* As we merged our datasets we had one list of values that was our North Star for how we approached the analysis - alcohol consumption (L). Focusing on alcohol consumption, that yielded data for 186 countries. 
+### Limitations of Data
+* As we merged our datasets we had one list of values for how we approached the analysis - alcohol consumption per capita (L). Focusing on alcohol consumption, that yielded data for 186 countries. 
 
 * For data on GDP, Life Expectancy, Happiness score and Mental health disorders, the number of datapoints decreased from 186 to 141 rows/values (countries). The biggest reduction in data available was especially apparent in reference to the Oceania continent with data only available for Australia/New Zealanda. Due to limited sample size, the analysis from that particular continent cannot be considered statistically significant when taking into consideration GDP, Life expectancy, Happiness score and Mental health disorders.
 
-* Data collections method may vary by country. Additionally, while consumption may be listed as nominal in certain muslim-dominated countries, there likely exists underground consumption that may not be reflected in the data.
+* We had historical data for some of the markers that we have used (e.g. wine consumption from 1960 to 2015), however, after running a t-test we realized that averages from that data are not statistically significant from the data available at the latest timepoints for each country (2013-2015), so we have used the data available at the latest time point.
+
+* When GDP bins were created the lowest and the highest bins ended up containing a lot smaller subset of countries than the rest of the bins. 94% of 141 countries represented in the final data frame were in the 4 middle bins and within GDP range per capita of 8-11.
 
 * This was an exploratory analysis and as a continuation, it may be beneficial to look at other indicators like violent crime, religion, education etc. 
 
