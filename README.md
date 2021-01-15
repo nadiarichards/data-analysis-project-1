@@ -43,9 +43,9 @@ Visualizations were built using variety of Python libraries like Matplolib and S
 <img src="Images/2_top_5_pie_chart.png" width="700" height="400">
 <img src="Images/map.png" width="700" height="400">
 <img src="Images/4_continent_boxplot.png" width="700" height="400">
-<img src="Images/alcohol_consumption_total_by_continent_as_a_%_of_total_worldwide_consumption_pie_chart.png">
-<img src="Images/alcohol_consumption_averages_by_continent_as_a_%_of_average_worldwide_consumption_pie_chart.png">
-<img src="Images/wine_consumption_averages_vs_wine_consumption_at_latest_timepoint_scatterplot.png">
+<img src="Images/alcohol_consumption_total_by_continent_as_a_%_of_total_worldwide_consumption_pie_chart.png" width="700" height="400">
+<img src="Images/alcohol_consumption_averages_by_continent_as_a_%_of_average_worldwide_consumption_pie_chart.png" width="700" height="400">
+<img src="Images/wine_consumption_averages_vs_wine_consumption_at_latest_timepoint_scatterplot.png" width="700" height="400">
 <img src="Images/wine_consumption_per_capita_by_continent_boxplot.png">
 <img src="Images/wine_consumption_total_by_continent_as_a_%_of_total_worldwide_consumption_pie_chart.png">
 <img src="Images/wine_consumption_averages_by_continent_as_a_%_of_total_worldwide_consumption_pie_chart.png">
