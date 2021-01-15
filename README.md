@@ -1,4 +1,4 @@
-# data-analysis-project-1
+# Acohol Consumption VS Socio-Economic Markers Worldwide
 #### First large data analysis class project
 
 <img src="Images/alcohol_image.png" width="1000" height="400">
